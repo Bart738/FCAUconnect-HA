@@ -40,4 +40,4 @@ jobs:
       with:
         args: |
           --${{ matrix.arch }} \
-          --target FiatAddon
+          --target FCAAddon
