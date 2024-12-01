@@ -1,11 +1,11 @@
 name: "FCAUconnect"
-url: "https://github.com/Blueion76/FCAUconnect-HA"
+url: "https://github.com/Bart738/FCAUconnect-HA"
 description: "Uconnect Home Assistant Addon for FCA vehicles (Jeep, Dodge, AlfaRomeo etc.)"
 services:
     - "mqtt:want"
 version: "1.1.2"
 homeassistant_api: true
-image: "ghcr.io/blueion76/image-{arch}-fca-uconnect"
+image: "ghcr.io/bart738/image-{arch}-fca-uconnect"
 slug: "fca_uconnect"
 init: false
 discovery: 
